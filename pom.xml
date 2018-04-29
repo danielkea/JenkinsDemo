@@ -4,11 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 
-	<artifactId>jenkins</artifactId>
+	<artifactId>org.jenkins</artifactId>
 	<packaging>war</packaging>
 	<name>jenkins</name>
-	<description>jenkins.</description>
-
+	<description>jenkins is a great thing</description>
 
 
 	<parent>
@@ -25,6 +24,7 @@
 	</properties>
 
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -42,7 +42,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
