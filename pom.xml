@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-
+	<groupId>com.jenkins</groupId>
 	<artifactId>jenkins</artifactId>
 	<packaging>war</packaging>
 	<name>jenkins</name>
@@ -48,20 +48,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<webResources>
-						<resource>
-							<directory>src/main/webapp/WEB-INF/</directory>
-							<targetPath>WEB-INF</targetPath>
-							<includes><include>web.xml</include></includes>
-							<filtering>true</filtering>
-						</resource>
-					</webResources>
-				</configuration>
-			</plugin>
+
 		</plugins>
 	</build>
 
